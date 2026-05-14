@@ -45,20 +45,26 @@ pip install -r requirements.txt
 
 ##  训练与测试
 
-** 运行最优模型 (ResNet-18 最佳超参数组)**
+运行baseline模型
+
+```bash
+python train.py
+```
+
+ 运行最优模型 (ResNet-18 最佳超参数组)
 
 ```bash
 python train_tune.py
 ```
 
 
-** 运行消融实验（无预训练，观察对比效果）**
+ 运行消融实验（无预训练，观察对比效果）
 
 ```bash
 python train_scratch.py
 ```
 
-** 运行 ViT 模型**
+ 运行 ViT 模型
 
 ```bash
 python train_vit.py
